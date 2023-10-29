@@ -1,0 +1,5 @@
+Linear Regression model:
+Y = β_0 + β_1X + ε
+(It can be extended) Here Y is the Response Variable or dependent variable while X is 
+dependent variable or the predictor variable.
+Response variable = Model function + Random error
