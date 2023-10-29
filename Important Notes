@@ -2,4 +2,5 @@ Linear Regression model:
 Y = β_0 + β_1X + ε
 (It can be extended) Here Y is the Response Variable or dependent variable while X is 
 dependent variable or the predictor variable.
-Response variable = Model function + Random error
+Response variable = Model function + Random error.
+A model is call Non linear if the order is more than 1 (in X).
