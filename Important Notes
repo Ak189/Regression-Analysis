@@ -19,3 +19,16 @@ The difference is called the sum of products of X and Y.
 S_xy = Σ(X_i)(Y_i) - nx̄ȳ     (covariance)
 S_xx = Σ(X_i)^2 - n(X̄)^2  (corrected sum of squares)
 S_yy = Σ(Y_i)^2 - n(ȳ)^2   (variability in Y)
+Analysis of Variance
+y_i - ŷ = y_i - ȳ - (ŷ - ȳ) (Trick to solve the anova)
+We also know (Σŷ_i)/n = ȳ
+Σ(ŷ_i - ȳ)^2 = (S_xy)^2/(S_xx)
+Sum of squares about the mean = sum of squares due to regression + sum of squares about regression.
+Sum of squares due to regression = Σ(ŷ_i - ȳ)^2 (i = 1...n), dof = 1
+Sum of squares about the regression (residuals) = Σ(y_i - ŷ)^2, dof = n-2
+Total sum of squares = Σ(y_i - ȳ)^2  , dof  = n-1
+Degree of freedom: Sum of squares have a number associated with it, which indicates how many independent pieces of information involving the n independent numbers Y_1, Y_2, ..,Y_n are needed to compile the sum of squares.
+A skeleton ANOVA consists of only the source and the dof.
+R^2 = (SS due to regression)/ (TSS)
+It measures the proportion of total variation about mean Y_bar explained by the regression.
+It is also the square of the multiple correlation coefficient
