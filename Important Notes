@@ -4,3 +4,18 @@ Y = β_0 + β_1X + ε
 dependent variable or the predictor variable.
 Response variable = Model function + Random error.
 A model is call Non linear if the order is more than 1 (in X).
+Y = β_0 + β_1(X) + β_2(X)^2 + ε (example of a non linear model)
+ŷ (y hat) represents the predicted value of Y for given X, when β_0 and β_1 are determined.
+To find the least squares just take the derivative of sum of square of function with respect 
+to each coef.
+The line fitted by the least squares is the one that makes the sum of squares of all these
+vertical discrepancies as small as possible.
+ΣX_i^2 = uncorrected sum of squares of X
+ΣX_i^2/n = correction of the mean of the X's
+The difference is called the sum of squares of X.
+ΣX_iY_i = uncorrected sum of products.
+ΣX_iY_i/n = correction of mean.
+The difference is called the sum of products of X and Y.
+S_xy = Σ(X_i)(Y_i) - nx̄ȳ     (covariance)
+S_xx = Σ(X_i)^2 - n(X̄)^2  (corrected sum of squares)
+S_yy = Σ(Y_i)^2 - n(ȳ)^2   (variability in Y)
